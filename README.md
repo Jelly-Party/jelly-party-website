@@ -1,6 +1,6 @@
 # jelly-party-website
 
-> The website behind Jelly-Party. See it [https://www.jelly-party.com](live).
+> The website behind Jelly-Party. See it [live](https://www.jelly-party.com).
 
 ## Build Setup
 

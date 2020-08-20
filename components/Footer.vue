@@ -18,6 +18,11 @@
           </a>
         </div>
         <div class="col-sm">
+          <a href="https://www.jelly-party.com/privacy-policy">
+            <p class="m-0 text-white">Privacy Policy</p>
+          </a>
+        </div>
+        <div class="col-sm">
           <a href="https://www.patreon.com/jellyparty">
             <p class="m-0 text-white">Support Us</p>
           </a>

@@ -9,7 +9,7 @@
     <b-container>
       <h1 class="display-3 text-white mb-0 mt-5">Watch anything. Together.</h1>
       <p class="text-white">
-        * Runs on Google Chrome. Paid services require every participant's
+        * Runs on Chrome/Firefox/Edge. Paid services require every participant's
         subscription.
       </p>
       <SupportedServices />
@@ -82,8 +82,7 @@
           xl="4"
           class="d-flex align-items-center justify-content-center mb-5"
         >
-          <a
-            href="https://chrome.google.com/webstore/detail/jelly-party/aiecbkandfgpphpdilbaaagnampmdgpd"
+          <a :href="getDownloadLink"
             ><button
               id="ctaButton"
               class="custom-button"
@@ -105,7 +104,16 @@ import SupportedServices from './SupportedServices.vue'
 
 export default {
   components: {
-    SupportedServices,
+    SupportedServices
+  },
+  computed: {
+    getDownloadLink() {
+      if (window.navigator.userAgent.includes('Firefox')) {
+        return 'https://addons.mozilla.org/en-US/firefox/addon/jelly-party/'
+      } else {
+        return 'https://chrome.google.com/webstore/detail/jelly-party/aiecbkandfgpphpdilbaaagnampmdgpd'
+      }
+    }
   },
   mounted() {
     function flickerAnimate(object) {
@@ -123,7 +131,7 @@ export default {
         y: randomY,
         rotate: randomRotation,
         onComplete: flickerAnimate,
-        onCompleteParams: [object],
+        onCompleteParams: [object]
       })
     }
     let excitement = 1
@@ -137,7 +145,7 @@ export default {
       excitement = 1
     })
     flickerAnimate(jellyfish)
-  },
+  }
 }
 </script>
 

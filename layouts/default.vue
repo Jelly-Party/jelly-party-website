@@ -13,8 +13,8 @@ export default {
   name: 'Default',
   components: {
     Navbar,
-    Footer,
-  },
+    Footer
+  }
 }
 </script>
 

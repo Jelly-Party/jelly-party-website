@@ -88,14 +88,14 @@
 <script>
 export default {
   mounted() {
-    window.onload = function() {
+    window.onload = function () {
       const videos = document.querySelectorAll('#gettingStarted video')
       for (const video of videos) {
         video.muted = true
         video.play()
       }
     }
-  }
+  },
 }
 </script>
 

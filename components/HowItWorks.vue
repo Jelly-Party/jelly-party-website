@@ -1,7 +1,7 @@
 <template>
   <div
     class="jumbotron jumbotron-fluid mb-0 d-flex align-items-center bg-light"
-    style="min-height:50vh"
+    style="min-height: 50vh"
   >
     <b-container>
       <h1 class="text-center display-4">Jelly-Party lets you</h1>

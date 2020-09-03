@@ -32,7 +32,7 @@
               target="_blank"
               class="patreon-button"
             >
-              <div class="d-flex align-items-center" style="height:100%">
+              <div class="d-flex align-items-center" style="height: 100%">
                 <svg
                   viewBox="0 0 569 546"
                   xmlns="http://www.w3.org/2000/svg"

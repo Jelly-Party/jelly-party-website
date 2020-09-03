@@ -1,6 +1,9 @@
 <template>
   <b-jumbotron
-    style="min-height: 70vh; background: linear-gradient(to bottom right, #ff9494 0%, #ee64f6 100%);"
+    style="
+      min-height: 70vh;
+      background: linear-gradient(to bottom right, #ff9494 0%, #ee64f6 100%);
+    "
     class="mb-0"
   >
     <b-container>
@@ -84,7 +87,7 @@
             ><button
               id="ctaButton"
               class="custom-button"
-              style="--content: 'Get the extension now!';"
+              style="--content: 'Get the extension now!'"
             >
               <div class="left"></div>
               Get the extension now!
@@ -102,7 +105,7 @@ import SupportedServices from './SupportedServices.vue'
 
 export default {
   components: {
-    SupportedServices
+    SupportedServices,
   },
   mounted() {
     function flickerAnimate(object) {
@@ -120,7 +123,7 @@ export default {
         y: randomY,
         rotate: randomRotation,
         onComplete: flickerAnimate,
-        onCompleteParams: [object]
+        onCompleteParams: [object],
       })
     }
     let excitement = 1
@@ -134,7 +137,7 @@ export default {
       excitement = 1
     })
     flickerAnimate(jellyfish)
-  }
+  },
 }
 </script>
 

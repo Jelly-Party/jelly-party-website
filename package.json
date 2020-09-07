@@ -1,7 +1,7 @@
 {
   "name": "jelly-party-website",
   "version": "1.0.0",
-  "description": "My fantabulous Nuxt.js project",
+  "description": "Watch parties made simple",
   "author": "Sean Eulenberg",
   "private": true,
   "scripts": {

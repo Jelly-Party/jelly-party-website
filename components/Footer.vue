@@ -14,11 +14,16 @@
           <a
             href="https://chrome.google.com/webstore/detail/jelly-party/aiecbkandfgpphpdilbaaagnampmdgpd"
           >
-            <p class="m-0 text-white">Chrome Extension</p>
+            <p class="m-0 text-white">Chrome/Edge Extension</p>
           </a>
         </div>
         <div class="col-sm">
-          <a href="https://www.jelly-party.com/privacy-policy">
+          <a href="https://addons.mozilla.org/en-US/firefox/addon/jelly-party/">
+            <p class="m-0 text-white">Firefox Extension</p>
+          </a>
+        </div>
+        <div class="col-sm">
+          <a href="privacy-policy">
             <p class="m-0 text-white">Privacy Policy</p>
           </a>
         </div>

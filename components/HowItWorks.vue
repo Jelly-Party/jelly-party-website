@@ -1,13 +1,13 @@
 <template>
   <div
     class="jumbotron jumbotron-fluid mb-0 d-flex align-items-center bg-light"
-    style="min-height:50vh"
+    style="min-height: 50vh"
   >
     <b-container>
-      <h1 class="text-center display-4">Jelly-Party lets you</h1>
+      <h1 class="text-center display-4">Get Jelly-Party and..</h1>
       <div class="row m-5 text-center">
         <div class="col-sm mt-3">
-          <h1>Be social.</h1>
+          <h1>Get social.</h1>
         </div>
         <div class="col-sm mt-3">
           <h1>Have fun.</h1>

@@ -6,8 +6,8 @@
         class="mt-5 d-flex align-items-center justify-content-center"
       >
         <h1 class="mt-2 mb-2 text-white text-center" style="max-width: 10em">
-          Jelly-Party runs in your Chrome browser on Windows, macOs, ChromeOS
-          &amp; Linux.
+          Jelly-Party runs in your Chrome/Firefox/Edge browser on Windows,
+          macOs, ChromeOS &amp; Linux.
         </h1>
       </b-col>
       <b-col

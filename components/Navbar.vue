@@ -4,9 +4,11 @@
     <b-navbar
       class="fixed-top"
       toggleable="sm"
-      style="background-color: #272727"
+      style="background-color: #272727; box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);"
     >
-      <b-container>
+      <b-container
+        class="d-flex align-items-center justify-content-space-around"
+      >
         <!-- Content here -->
         <b-navbar-toggle target="nav-collapse">
           <template v-slot:default>
@@ -20,50 +22,64 @@
         </b-navbar-toggle>
 
         <b-navbar-nav>
-          <b-navbar-brand href="https://www.jelly-party.com">
+          <b-navbar-brand href="/">
             <h2 class="brand-name">Jelly Party</h2></b-navbar-brand
           >
         </b-navbar-nav>
         <b-collapse id="nav-collapse" is-nav>
-          <!-- Right aligned nav items -->
-          <b-navbar-nav class="ml-auto">
-            <a
-              href="https://patreon.com/jellyparty"
-              target="_blank"
-              class="patreon-button"
-            >
-              <div class="d-flex align-items-center" style="height:100%">
-                <svg
-                  viewBox="0 0 569 546"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18px"
-                  height="18px"
-                  fill="white"
-                  class="mr-2"
-                >
-                  <g>
-                    <circle
-                      id="Oval"
-                      cx="362.589996"
-                      cy="204.589996"
-                      data-fill="1"
-                      r="204.589996"
-                    ></circle>
-                    <rect
-                      id="Rectangle"
-                      fill="#002b49"
-                      data-fill="2"
-                      height="545.799988"
-                      width="100"
-                      x="0"
-                      y="0"
-                    ></rect>
-                  </g>
-                </svg>
-                Support us on Patreon
-              </div>
-            </a>
-          </b-navbar-nav>
+          <div
+            class="d-flex align-items-center w-100"
+            style="justify-content: space-evenly; flex-wrap: wrap"
+          >
+            <b-navbar-nav>
+              <b-navbar-brand href="/" class="text-white cta-button">
+                <p class="m-0">Get for Chrome/Edge</p></b-navbar-brand
+              >
+            </b-navbar-nav>
+            <b-navbar-nav>
+              <b-navbar-brand href="/" class="text-white cta-button">
+                <p class="m-0">Get for Firefox</p></b-navbar-brand
+              >
+            </b-navbar-nav>
+            <b-navbar-nav>
+              <a
+                href="https://patreon.com/jellyparty"
+                target="_blank"
+                class="patreon-button"
+              >
+                <div class="d-flex align-items-center">
+                  <svg
+                    viewBox="0 0 569 546"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18px"
+                    height="18px"
+                    fill="white"
+                    class="mr-2"
+                  >
+                    <g>
+                      <circle
+                        id="Oval"
+                        cx="362.589996"
+                        cy="204.589996"
+                        data-fill="1"
+                        r="204.589996"
+                      ></circle>
+                      <rect
+                        id="Rectangle"
+                        fill="#002b49"
+                        data-fill="2"
+                        height="545.799988"
+                        width="100"
+                        x="0"
+                        y="0"
+                      ></rect>
+                    </g>
+                  </svg>
+                  <p class="m-0">Support us on Patreon</p>
+                </div>
+              </a>
+            </b-navbar-nav>
+          </div>
         </b-collapse>
       </b-container>
     </b-navbar>
@@ -74,7 +90,24 @@
 export default {}
 </script>
 
-<style scoped>
+<style lang="scss">
+@mixin cta-button-template() {
+  background: linear-gradient(
+    to right bottom,
+    rgb(145, 100, 255) 0px,
+    rgb(90, 160, 154)
+  );
+  color: white;
+  border-radius: 1em;
+  padding: 0.3em 0.5em;
+  transition: 500ms all ease;
+  margin: 0.2em 0em;
+  cursor: pointer;
+  &:hover {
+    filter: grayscale(80%);
+  }
+}
+
 .brand-name {
   color: white;
 }
@@ -88,22 +121,20 @@ export default {}
 }
 
 .patreon-button {
-  height: 40px;
-  border-radius: 20px;
-  background-color: #f86753;
-  color: white;
-  font-family: sans-serif;
-  font-size: 14px;
-  overflow: hidden;
-  padding: 0 20px 0 10px;
-  cursor: pointer;
+  @include cta-button-template;
+  background: #f86753;
   border: 1px solid transparent;
   transition: all 100ms ease;
   border: 2px solid transparent;
   font-weight: bold;
+  &:hover {
+    border: 2px solid white;
+    filter: grayscale(0%);
+    color: white;
+  }
 }
 
-.patreon-button:hover {
-  border: 2px solid white;
+.cta-button {
+  @include cta-button-template;
 }
 </style>

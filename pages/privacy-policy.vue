@@ -5,8 +5,8 @@
       Your privacy is important to us. It is Jelly Party's policy to respect
       your privacy regarding any information we may collect from you across our
       website,
-      <a href="https://www.jelly-party.com/">https://www.jelly-party.com/</a>,
-      and other sites we own and operate.
+      <a href="/">https://www.jelly-party.com/</a>, and other sites we own and
+      operate.
     </p>
     <p>
       We only ask for personal information when we truly need it to provide a

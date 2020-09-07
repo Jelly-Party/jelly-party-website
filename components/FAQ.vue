@@ -1,8 +1,7 @@
 <template>
   <b-container
     id="gettingStarted"
-    style="min-height: 60vh"
-    class="d-flex flex-column justify-content-center align-items-center mt-5 mb-5"
+    class="d-flex flex-column justify-content-center align-items-center mb-5"
   >
     <h1 class="display-4 text-center">FAQ.</h1>
 
@@ -40,7 +39,7 @@ export default {
         {
           title: 'How do I join a party using a magic link?',
           value:
-            'The magic link is a convenient way to invite people to your party. You simply share the magic link, and people can join your party using it. Your peers have to open the magic link in a Chrome browser <b>with Jelly-Party already installed.</b> They will then be taken to the video the party was last watching, and automatically join the party.<br/><br/><b>In most cases, you will want to use the magic link!</b>',
+            'The magic link is a convenient way to invite people to your party. You simply share the magic link, and people can join your party using it. Your peers have to open the magic link in a browser <b>with Jelly-Party already installed.</b> They will then be taken to the video the party was last watching, and automatically join the party.<br/><br/><b>In most cases, you will want to use the magic link!</b>',
           category: 'Join a party'
         },
         {
@@ -59,7 +58,7 @@ export default {
         {
           title: 'Help! I switched tabs and now Jelly-Party lost my party!',
           value:
-            'Due to the nature of how Chrome extensions works, Jelly-Party lives inside your <b>tab</b>. This means that you will always see the Jelly-Party status <b>for your current tab!</b> You can be in several Jelly-Parties at the same time, in different tabs, if you wish.<br/><br/>When opening the Jelly-Party extension, make sure to check that you are in the tab where your party was last running.',
+            'Due to the nature of how browser extensions works, Jelly-Party lives inside your <b>tab</b>. This means that you will always see the Jelly-Party status <b>for your current tab!</b> You can be in several Jelly-Parties at the same time, in different tabs, if you wish.<br/><br/>When opening the Jelly-Party extension, make sure to check that you are in the tab where your party was last running.',
           category: 'General'
         },
         {

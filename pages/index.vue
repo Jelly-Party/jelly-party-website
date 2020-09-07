@@ -1,30 +1,30 @@
 <template>
   <div>
     <HeroHeader />
-    <GettingStarted />
-    <HowItWorks />
-    <VideoDemo />
+    <Perks />
+    <SyncVideo />
     <FAQ />
     <DiscordInvitation />
+    <HowItWorks />
   </div>
 </template>
 
 <script>
-import VideoDemo from '~/components/VideoDemo.vue'
+import SyncVideo from '~/components/SyncVideo.vue'
 import HeroHeader from '~/components/HeroHeader/HeroHeader.vue'
 import HowItWorks from '~/components/HowItWorks.vue'
 import DiscordInvitation from '~/components/DiscordInvitation.vue'
-import GettingStarted from '~/components/GettingStarted.vue'
 import FAQ from '~/components/FAQ.vue'
+import Perks from '~/components/Perks.vue'
 
 export default {
   components: {
     HeroHeader,
-    VideoDemo,
+    SyncVideo,
     HowItWorks,
     DiscordInvitation,
     FAQ,
-    GettingStarted
+    Perks
   },
   mounted() {
     if (window.location.hash === '#gettingStarted') {

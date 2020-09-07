@@ -2,7 +2,7 @@
   <footer>
     <div class="container-fluid">
       <div
-        class="row bg-dark text-center align-items-center"
+        class="row bg-dark text-center align-items-center py-3"
         style="min-height: 5vh"
       >
         <!-- <div class="col-sm">
@@ -33,6 +33,15 @@
           </a>
         </div>
       </div>
+
+      <div class="row bg-dark text-center align-items-center py-3">
+        <hr style="background: white; width: 100vw;" class="mx-5 mt-0" />
+        <div class="col-sm text-white text-center">
+          Powered by <a href="https://vuejs.org/">vuejs</a>,
+          <a href="https://fontawesome.com/"> FontAwesome</a> and awesome Open
+          Source Software.
+        </div>
+      </div>
     </div>
   </footer>
 </template>
@@ -41,4 +50,8 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped>
+a {
+  text-decoration: none;
+}
+</style>

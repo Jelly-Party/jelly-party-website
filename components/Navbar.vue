@@ -4,7 +4,7 @@
     <b-navbar
       class="fixed-top"
       toggleable="sm"
-      style="background-color: #272727"
+      style="background-color: #272727; box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);"
     >
       <b-container
         class="d-flex align-items-center justify-content-space-around"

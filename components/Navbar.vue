@@ -29,7 +29,7 @@
         <b-collapse id="nav-collapse" is-nav>
           <div
             class="d-flex align-items-center w-100"
-            style="justify-content: space-evenly"
+            style="justify-content: space-evenly; flex-wrap: wrap"
           >
             <b-navbar-nav>
               <b-navbar-brand href="/" class="text-white cta-button">
@@ -47,7 +47,7 @@
                 target="_blank"
                 class="patreon-button"
               >
-                <div class="d-flex align-items-center" style="height: 30px">
+                <div class="d-flex align-items-center">
                   <svg
                     viewBox="0 0 569 546"
                     xmlns="http://www.w3.org/2000/svg"
@@ -101,6 +101,7 @@ export default {}
   border-radius: 1em;
   padding: 0.3em 0.5em;
   transition: 500ms all ease;
+  margin: 0.2em 0em;
   cursor: pointer;
   &:hover {
     filter: grayscale(80%);

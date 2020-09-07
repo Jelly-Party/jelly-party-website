@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="py-5 my-5">
+  <b-container fluid class="pt-5 my-5">
     <h1 class="display-4 text-center mb-5">Worry-free watch parties</h1>
     <b-row>
       <b-col sm class="perk-col">

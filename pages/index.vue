@@ -1,10 +1,11 @@
 <template>
   <div>
     <HeroHeader />
-    <HowItWorks />
+    <Perks />
     <SyncVideo />
     <FAQ />
     <DiscordInvitation />
+    <HowItWorks />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import HeroHeader from '~/components/HeroHeader/HeroHeader.vue'
 import HowItWorks from '~/components/HowItWorks.vue'
 import DiscordInvitation from '~/components/DiscordInvitation.vue'
 import FAQ from '~/components/FAQ.vue'
+import Perks from '~/components/Perks.vue'
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     SyncVideo,
     HowItWorks,
     DiscordInvitation,
-    FAQ
+    FAQ,
+    Perks
   },
   mounted() {
     if (window.location.hash === '#gettingStarted') {

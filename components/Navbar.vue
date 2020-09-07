@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div style="height: 72px"></div>
+    <div style="height: 62px"></div>
     <b-navbar
-      class="fixed-top"
-      toggleable="sm"
-      style="background-color: #272727; box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);"
+      class="fixed-top p-2"
+      toggleable="lg"
+      style="background-color: #272727; box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);"
     >
       <b-container
         class="d-flex align-items-center justify-content-space-around"
@@ -23,7 +23,7 @@
 
         <b-navbar-nav>
           <b-navbar-brand href="/">
-            <h2 class="brand-name">Jelly Party</h2></b-navbar-brand
+            <h2 class="brand-name m-0">Jelly Party</h2></b-navbar-brand
           >
         </b-navbar-nav>
         <b-collapse id="nav-collapse" is-nav>

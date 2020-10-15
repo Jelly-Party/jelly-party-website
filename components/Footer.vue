@@ -34,12 +34,16 @@
         </div>
       </div>
 
-      <div class="row bg-dark text-center align-items-center py-3">
-        <hr style="background: white; width: 100vw;" class="mx-5 mt-0" />
+      <div class="row bg-dark text-center align-items-center py-1">
         <div class="col-sm text-white text-center">
-          Powered by <a href="https://vuejs.org/">vuejs</a>,
-          <a href="https://fontawesome.com/"> FontAwesome</a> and awesome Open
-          Source Software.
+          <div
+            style="width: 30%; border-top: 1px solid white; margin: 0 auto;"
+          ></div>
+          <small>
+            Powered by <a href="https://vuejs.org/">vuejs</a>,
+            <a href="https://fontawesome.com/"> FontAwesome</a> and awesome Open
+            Source Software.
+          </small>
         </div>
       </div>
     </div>

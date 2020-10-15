@@ -540,9 +540,11 @@
       </a>
       and many more!
     </p>
-    <p class="text-white">
-      Check out our
-      <a href="supported-streaming-services">supported services</a>.
+    <p class="text-white text-center">
+      <small>
+        Check out our
+        <a href="supported-streaming-services">supported services</a>.
+      </small>
     </p>
   </div>
 </template>

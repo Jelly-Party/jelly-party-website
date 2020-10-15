@@ -9,10 +9,11 @@
   >
     <b-container>
       <h1 class="display-3 text-white mb-0">Watch anything. Together.</h1>
-      <p class="text-white">
-        * Runs on Chrome/Firefox/Edge. Paid services require every participant's
-        subscription.
-      </p>
+      <h4 class="text-white py-3">
+        Jelly-Party synchronizes videos you play in your browser, so that you
+        and your friends can enjoy your favorite content —
+        <span style="font-weight: 600"> together.</span>
+      </h4>
       <SupportedServices />
     </b-container>
     <b-container fluid>
@@ -64,21 +65,9 @@
             </svg>
           </div>
         </b-col>
-        <b-col xl="4" class="d-flex align-items-center justify-content-center">
-          <p class="lead text-white text-center" style="max-width: 20em">
-            Jelly-Party synchronizes videos you play in your browser, so that
-            you and your friends can enjoy your favorite content —
-            <span style="font-weight: 600"> together.</span>
-            <br />
-            <br />
-            <small>
-              Please consider leaving us <a href="feedback">feedback</a>.
-            </small>
-          </p>
-        </b-col>
         <b-col
           xl="4"
-          class="d-flex align-items-center justify-content-center mb-5"
+          class="d-flex align-items-center justify-content-center flex-column"
         >
           <a :href="getDownloadLink"
             ><button
@@ -90,9 +79,23 @@
               Get the extension now!
               <div class="right"></div></button
           ></a>
+          <small class="text-white d-none d-sm-block">
+            Please consider leaving us <a href="feedback">feedback</a>.
+          </small>
+          <br />
+        </b-col>
+        <b-col
+          xl="4"
+          class="d-flex align-items-center justify-content-center flex-column text-center"
+        >
+          <p class="text-white" style="max-width: 300px;">
+            Runs on Chrome, Firefox &amp; Edge. Paid services require every
+            participant's subscription.
+          </p>
         </b-col>
       </b-row>
     </b-container>
+    <b-container style="min-height: 15vh"> </b-container>
     <div class="custom-shape-divider-bottom-1599467513">
       <svg
         data-name="Layer 1"

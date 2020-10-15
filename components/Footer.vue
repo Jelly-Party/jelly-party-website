@@ -28,8 +28,8 @@
           </a>
         </div>
         <div class="col-sm">
-          <a href="https://www.patreon.com/jellyparty">
-            <p class="m-0 text-white">Support Us</p>
+          <a href="https://ko-fi.com/jellyparty">
+            <p class="m-0 text-white">Support The Creator</p>
           </a>
         </div>
       </div>
